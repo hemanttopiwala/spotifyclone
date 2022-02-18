@@ -1,0 +1,344 @@
+body{
+	background-color: #0c1027;
+}
+
+
+#size{
+	height: 10vh;
+	width: 10vw;
+	
+	
+
+}
+
+
+#firstelement{
+	display: flex;
+	height: auto;
+	background-color: #0c1027;;
+	width: 100vw;
+	flex-direction: row;
+	justify-content: space-between;
+
+
+}
+
+#fav{
+	margin-top: 2rem;
+	color: white;
+	font-size: 1.5rem;
+}
+
+
+/*form*/
+.form {
+    position: relative
+
+
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+
+.form span {
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db
+}
+
+.left-pan {
+    padding-left: 7px
+}
+
+.left-pan i {
+    padding-left: 10px
+}
+
+.form-input {
+    height: 55px;
+    width: 25vw;
+    color: white;
+    text-indent: 33px;
+    border-radius: 10px
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: none
+}
+
+.form-control{
+	background-color: #0c1027 !important;
+}
+
+/*form*/
+
+.textcolor{
+	color: white !important;
+}
+
+#search{
+	
+	margin-top: 2vh;
+}
+
+
+#bell i{
+	color: white;
+	transition: 0.2s;
+	margin-top: 5vh;
+	margin-right:1vw;
+	font-size: 1.5rem;
+}
+
+#bell i:hover{
+	transform: scale(1.2);
+}
+
+#user img{
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+	border-radius: 50%;
+	margin-right: 10vw;
+	margin-top: 3vh;
+	transition: 0.2s;
+}
+
+#user img:hover{
+	transform: scale(1.2);
+}
+
+
+
+
+/*Header Image with description*/
+
+
+.Front{
+
+	display: flex;
+	height: auto;
+	background-color: #141b41;
+	width: 55vw;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 15vw;
+	margin-top: 2%;
+	flex-wrap: wrap;
+	min-width: 300px;
+	overflow: auto;
+
+
+}
+
+#MainImage img{
+
+	height: 40vh;
+	width: 20vw;
+	min-width: 300px;
+}
+
+.textcolor{
+	color: white;
+}
+
+
+#Discription{
+	height: 40vh;
+	width: 32vw;
+	justify-content: center;
+	margin-left: 10px;
+	min-width: 300px;
+}
+
+#follower{
+	font-size: 1.1rem;
+	text-align: right;;
+	margin-right: 20px;
+	color: #686d85;
+	transition: 0.2s;
+}
+#intro{
+	color: #686d85;
+	font-size: 0.7rem;
+}
+
+
+#playall{
+	margin-top: 20px;
+	height: 32px; 
+	width: 70px; 
+	background-color: #b545db;
+	color: white;
+	font-size:0.8rem;
+	padding-left: 13px;
+	padding-top: 8px;
+	box-sizing: border-box;
+	transition: 0.2s;
+}
+#playall:hover{
+	transform: scale(1.2);
+}
+
+#container{
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+
+
+}
+
+#follow{
+	margin-top: 20px;
+	font-size: 1.1rem;
+	color: #7b7f94;
+	transition: 0.2s;
+}
+#follow:hover{
+	transform: scale(1.2);
+
+}
+
+
+.musiclist{
+	
+
+	display: flex;
+	height: auto;
+	background-color: #0c1027;
+	width: 55vw;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 15vw;
+	margin-top: 2%;
+	flex-wrap: wrap;
+	min-width: 300px;
+	overflow: auto;
+
+}
+
+#smallarlist{
+	width: 25vw;
+
+	height: 81vh;
+	
+
+	display: flex;
+	overflow-wrap: wrap;
+	flex-direction: column;
+	
+	vertical-align: top;
+	min-width: 300px;
+	position: fixed;
+	top: 15%;
+	overflow: scroll;
+	
+	
+
+	left: 73%;
+	
+}
+
+#Queue{
+	color: #686d85;
+	height: 8vh;
+	font-size: 1.3rem;
+	text-align: left;
+	margin-bottom: 2vh;
+	position: sticky;
+	top: 0;
+	background-color: #0c1027;
+	padding-bottom:1.5vh;
+	padding-left: 1.5rem;
+}
+
+#item{
+	display: flex;
+	height: 10vh;
+	width: 100%;
+	background-color: #141b41;
+	margin-bottom:10px;
+	
+}
+
+#dimen{
+	height: 100%;
+	width: 5rem;
+	margin-left: 20px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+#songname{
+	color: #e6acac;
+	margin-top: 3vh;
+	width: 60%;
+	text-align: left;
+	margin-left: 5px;
+}
+
+#heart{
+	color: #e6acac;
+	margin-top: 3vh;
+	font-size: 1rem;
+}
+
+#heart i{
+	transition: 0.2s;
+}
+
+#heart i:hover{
+	transform: scale(1.4);
+}
+
+#plus{
+	color: #e6acac;
+	margin-top: 3vh;
+	font-size: 1rem;
+	margin-left: 3vw;
+}
+
+#plus i{
+	transition: 0.2s;
+}
+
+#plus i:hover{
+	transform: scale(1.4);
+}
+
+
+#player {
+  position: -webkit-sticky;
+  position: fixed;
+  overflow: hidden;
+  height: 0;
+  width: 0;
+
+
+  
+  justify-content: center;
+  padding: 50px;
+  font-size: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+
+#player:target{
+	height: 45px;
+	width: 30%;
+	background-image: url("Music.png");
+	background-size: cover;
+	top: 75vh;
+    left: 24vw;
+
+}

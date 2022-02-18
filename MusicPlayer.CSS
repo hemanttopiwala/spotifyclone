@@ -1,0 +1,164 @@
+
+body{
+	background-color: #0c1027;
+}
+
+#dimensions{
+	height: 100%;
+	width: 100%;
+
+	min-width: 100px;
+	min-height: 50px;
+	
+}
+
+.textcolor{
+	color: white !important;
+}
+
+
+
+
+
+/*this is the search bar with mic icon*/
+
+.form {
+    position: relative
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #9ca3af
+}
+
+.form span {
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db
+}
+
+.left-pan {
+    padding-left: 7px
+}
+
+.left-pan i {
+    padding-left: 10px
+}
+
+.form-input {
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: none
+}
+
+.form-control{
+	background-color: #0c1027 !important;
+}
+
+/*This is the end of the search bar with icon*/
+
+.iconcolor{
+	color: white !important;
+}
+
+#size{
+	font-size: 1.3rem;
+	color: white;
+}
+
+
+#user{
+	height: 70%;
+	width: 70%;
+	min-width: 25px;
+	min-height: 25px;
+
+	border-radius: 50%;
+	padding: 2%;
+}
+
+#imagesize{
+	height: 18rem;
+	width: 18rem;
+}
+
+
+
+#size img{ 
+	transition: 0.2s;
+	height: 13rem;
+	width: 15rem;
+}
+
+
+
+@keyframes big{
+	form{
+		height: 13rem;
+		width: 15rem;
+	}
+	to{
+		height: 15rem;
+		width: 17rem;
+		animation-play-state: paused;
+	}
+}
+
+#size img:hover{
+	transform: scale(1.1);
+}
+.artists{
+	height: 8rem;
+	width: 8rem;
+	position: relative;
+
+	border-radius: 50%;
+}
+
+
+
+/*Play button*/
+
+#play{
+	position: absolute;
+	color: white;
+	opacity: 1;
+	margin: 0px;
+	z-index: 3;
+	margin-left: 0;
+}
+
+#arjit{
+	background-image: url("Image5.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 8rem;
+	width: 8rem;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.2s;
+}
+#arjit i{
+	visibility: hidden;
+	transition: 0.2s;
+	color: white;
+	font-size: 1.5rem;
+
+
+}
+
+#arjit:hover i{
+	visibility: visible;
+}
